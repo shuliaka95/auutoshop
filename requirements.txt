@@ -1,4 +1,5 @@
 aiogram==2.23.1
+colorama
 colorlog
 requests==2.31.0
 aiohttp
