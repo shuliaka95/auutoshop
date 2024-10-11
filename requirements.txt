@@ -1,7 +1,7 @@
 aiogram==2.23.1
 colorlog
 requests==2.31.0
-aiohttp==3.8.5
+aiohttp
 APScheduler==3.8.0
 typing
 async_class
