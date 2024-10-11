@@ -7,7 +7,7 @@ typing
 async_class
 nest-asyncio
 loguru==0.7.2
-aiopayok==0.3.0
+aiopayok==0.2.1
 aiosqlite==0.20.0
 beautifulsoup4==4.12.3
 bs4==0.0.2
