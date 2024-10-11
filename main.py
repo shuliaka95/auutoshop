@@ -2,7 +2,7 @@ import colorama
 import asyncio
 import logging
 
-from aiogram import Dispatcher
+from aiogram import executor, Dispatcher
 from tgbot.handlers import dp
 from tgbot.middlewares import setup_middlewares
 from tgbot.data.config import db
@@ -52,4 +52,4 @@ if __name__ == "__main__":
     loop.create_task(check_contests())
     loop.create_task(check_updates())
 
-    dp.start_polling(dp, on_startup=on_startup, on_shutdown=on_shutdown, skip_updates=True)
+    executor.start_polling(dp, on_startup=on_startup, on_shutdown=on_shutdown, skip_updates=True)
